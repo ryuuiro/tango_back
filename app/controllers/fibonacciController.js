@@ -15,6 +15,6 @@ module.exports = {
             result = n > 0 ? 1 : 0;
         }
 
-        return res.json({a:result});
+        return res.json({result});
     }
 };

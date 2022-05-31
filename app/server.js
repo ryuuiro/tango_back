@@ -10,4 +10,4 @@ var router = require('./routes');
 app.use('/api', router);
 
 app.listen(port);
-console.log('API listening port: ' + port);
+console.log(`API listening port: ${port}`);
