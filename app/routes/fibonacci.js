@@ -1,7 +1,8 @@
 var router = require('express').Router();
+var fibonacciController = require ('../controllers/fibonacciController')
 
 router.get('/:number', function(req, res) {
-    res.json({ message: req.params.number });
+    fibonacciController.calculator(req, res);
 })
 
 module.exports = router;
