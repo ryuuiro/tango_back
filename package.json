@@ -4,6 +4,8 @@
   "description": "api test fot Tango",
   "main": "index.js",
   "scripts": {
+    "start": "node app/server.js",
+    "watch": "nodemon app/server.js",
     "test": "npm test"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/ryuuiro/tango_back#readme",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
