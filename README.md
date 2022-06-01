@@ -10,9 +10,9 @@ El api consta de los siguientes archivos
 
 npm run install
 
-for execute the application run: npm run start
+for execute the application: npm run start
 
-for work and update automatically the node server run: npm run dev
+for work and update automatically the node server: npm run dev
 
 ## API access
 
