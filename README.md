@@ -1,6 +1,6 @@
 ## API Structure
 
-El api consta de los siguientes archivos
+API files
 
 - routes /src/routes/fibonacci.ts  base route /src/routes/index.ts
 - controller /src/controllers/fibonacciController.ts
