@@ -1,9 +1,9 @@
 const fibonacciController = {
-calculator: (req:number, res:any) => {
-        var a = 0;
-        var b = 1;
-        var result;
-        var n = req;
+    calculator: (req:number, res:any) => {
+        let a = 0;
+        let b = 1;
+        let result;
+        const n = req;
 
         if(n > 1) {
             for (var i = 2; i <= n; i++) {
